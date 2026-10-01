@@ -1,0 +1,11 @@
+.git
+.gitignore
+.ipynb_checkpoints
+venv
+__pycache__
+*.pyc
+augmented data
+dataset
+*.ipynb
+*.PNG
+convnet_architecture.jpg

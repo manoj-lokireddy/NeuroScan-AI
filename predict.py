@@ -22,7 +22,7 @@ image = tf.keras.utils.load_img(
 )
 
 image_array = tf.keras.utils.img_to_array(image)
-image_array = image_array / 255.0
+# Model already contains layers.Rescaling(1.0 / 255)
 image_array = np.expand_dims(image_array, axis=0)
 
 # Prediction
