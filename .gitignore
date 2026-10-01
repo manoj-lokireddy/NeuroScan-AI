@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local dataset
+dataset/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large/local files
+*.zip
+*.rar
